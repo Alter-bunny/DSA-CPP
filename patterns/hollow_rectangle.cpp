@@ -11,9 +11,9 @@ int main()
 
     for (int i = 0; i < row; i++)
     {
-        for (int j = 0; j < row; j++)
+        for (int j = 0; j < col; j++)
         {
-            if (i == 0 || i == row - 1 || j == 0 || j == col)
+            if (i == 0 || i == row - 1 || j == 0 || j == col-1)
             {
                 cout << "*";
             }
