@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int binarySearch(int arr[], int size, int key)
@@ -10,7 +10,7 @@ int binarySearch(int arr[], int size, int key)
         int mid = start + (end - start) / 2;
         if (arr[mid] == key)
         {
-            cout << "Element found at index " << mid << endl;
+         cout << "Element found at index " << mid << endl;
             return 1;
         }
         else if (arr[mid] > key)
