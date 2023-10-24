@@ -1,4 +1,3 @@
-// write a cpp program to print fibonacci series with both for loop and recursion
 #include <iostream>
 using namespace std;
 
